@@ -38,7 +38,7 @@ const PowerBiCloud = () => {
     },
     offers: {
       "@type": "Offer",
-      price: "30",
+      price: "1",
       priceCurrency: "USD",
       url: "https://techfinna.com/odoo-ai-powered-dashboard/",
     },
