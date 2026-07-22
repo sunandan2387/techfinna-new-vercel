@@ -31,5 +31,22 @@
         "specs": "Community + Enterprise",
         "desc": "Connect your Odoo with Discod, ever first module and most useful for building up community and servers",
         "keywords": "discord odoo discodoo connector"
+      },
+      {
+        "name": "PowerBI Cloud Connector with AI",
+        "demo": false,
+        "bestSeller": false,
+        "price": 190,
+        "aggregatedRating": 5.0,
+        "totalReviews": 25,
+        "image": "<img className='p-2' src='/images/powerbi/powerbi-logo.png' alt='odoo powerbi connector with ai' width='100px' />",
+        "banner": "/images/pbi-cloud/banner.png",
+        "href": "/odoo-powerbi-cloud-ai/",
+        "storeLink": "https://apps.odoo.com/apps/modules/19.0/pbi-cloud-ai",
+        "websiteLink": "/odoo-powerbi-cloud-ai/",
+        "color": "#4285f4",
+        "specs": "Community + Enterprise",
+        "desc": "Build one clean dataset inside Odoo, preview rows live, and push to Power BI Cloud. AI drafts your first dashboard.",
+        "keywords": "odoo powerbi connector power bi cloud dataset builder ai dashboard odoo to power bi"
       }
 ]
