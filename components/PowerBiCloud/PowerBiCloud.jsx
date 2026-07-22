@@ -8,13 +8,14 @@ import Compare from "./Compare";
 import Reviews from "./Reviews";
 import CustomDashboard from "./CustomDashboard";
 import products from "../../data/products.json";
+import removedProducts from "../../data/removedProducts.json";
 import Modal from "./Modal";
 import DemoVideo from "../LiveDemo/DemoVideo";
 const PowerBiCloud = () => {
-  const currentProduct = products.filter(
+  const currentProduct = [...products, ...removedProducts].filter(
     (obj) => obj.href == "/odoo-powerbi-cloud-ai/"
   );
-  const amount = currentProduct[0].price;
+  const amount = currentProduct[0]?.price;
   const schema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
