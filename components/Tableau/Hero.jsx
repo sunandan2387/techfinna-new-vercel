@@ -73,6 +73,9 @@ const Hero = ({ amount, rating = 0, reviewCount = 0 }) => {
                 <p className="text-sm bg-[#EDF2F7] rounded-sm px-2 border font-medium">
                   18.0
                 </p>
+                <p className="text-sm bg-[#EDF2F7] rounded-sm px-2 border font-medium">
+                  19.0
+                </p>
               </div>
             </div>
             <div className="flex py-1">

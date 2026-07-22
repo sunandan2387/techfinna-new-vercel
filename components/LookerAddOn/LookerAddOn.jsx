@@ -127,6 +127,9 @@ const LookerAddOn = () => {
                   <span className="border rounded-md px-2 dhadow-md">
                     18.0
                   </span>{" "}
+                  <span className="border rounded-md px-2 dhadow-md">
+                    19.0
+                  </span>{" "}
                 </p>
                 <p className="mt-2 bg-transparent mx-2 text-lg">
                   Works well on Odoo Sh and
